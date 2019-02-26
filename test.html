@@ -1,0 +1,46 @@
+<html>
+    <head>  
+        <title>Javascript atkartojums</title>
+
+    </head>
+    <body>
+        <h1>Javascript</h1>
+        <p>Press F12 key or ctrl+I, look in console</p>
+
+        <script>
+            let str="caw new string"
+            console.log("My string text:",str)
+            let age=22
+            console.log('Persons age: ', age)
+            console.log(`caw: ${age}`)
+
+            //property
+            let len=str.length
+            console.log('Length of string: ',len)
+
+            let includeNew=str.includes('new')
+            console.log('Includes new?: ',includeNew)
+
+            let upC=str.toUpperCase()
+            console.log(upC)
+            let lowC=str.toLowerCase()
+            console.log(lowC)
+
+            let repl=str.replace('caw','Hello','caw')
+            console.log(repl)
+            let text='today is a beatiful weather'
+            let str1=repl.slice(0,7)
+            let str2=repl.slice(7)
+            newStr=str1.concat(text,str2)
+            console.log(newStr)
+            
+            let Fails='programma.txt.aaa'
+            let afterDot = Fails.substr(Fails.indexOf('.')+1);
+            
+            console.log(Fails)
+            console.log(afterDot)
+
+        </script>
+
+    </body>
+</html>
